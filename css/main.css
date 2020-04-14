@@ -1,0 +1,177 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 10px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.tamanhoMedio {
+	font-size: 1.3em;
+}
+
+header {
+	background-image: url(../img/capa-madmax2.jpg);
+	height: 90vh;
+	background-attachment: fixed;
+}
+
+#login {
+	float: right;
+}
+
+#logoIMDB{
+	margin-left: unset;
+}
+
+#login img{
+	border-radius: 100%;
+	height: 45px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.nav-main{
+	align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    margin: 0 auto 0  auto;
+    position: relative;
+    width: 960px;
+}
+
+.nav-main a{
+	margin: 30px auto 0 auto;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#generosMadMax {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+#generosMadMax a {
+	margin-right: 15px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+}
+
+h1{
+	font-size: 6.5em;
+    font-weight: bold;
+	line-height: 1.2em;
+	color: white;
+	margin: 10px;
+}
+
+#mainMovieInformation a {
+	margin-bottom: 20px;
+}
+
+.trailerButton {
+	display: inline-block;
+    padding: 15px 50px;
+    color: #000;
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: #e4bb23;
+    border-radius: 40px;
+    position: relative;
+    transition: all 0.2s
+}
+
+#cinemas {
+	color: white;
+	font-size: 1.2em;
+}
+
+#dataInformation{
+	color: #bc9a1d;
+	font-size: 1.2em;
+}
+
+#mainMovieInformation {
+	margin-top: 380px;
+	z-index: 2;
+}
+
+.nav-catalogo {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	border-bottom: 1px lightgray solid;
+
+}
+
+.nav-catalogo a{
+	margin: 30px 25px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #bc9a1d;;
+	font-size: 1.3em;
+}	
+
+.catalogo {
+	width: 960px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto 10px auto;
+  	flex-wrap: wrap;
+}
+
+.movie img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.movie {
+	width: 24%;
+}
+.fa-heart {
+	margin-right: 70%;
+	font-size: 18px;
+	color: gray;
+}
+.nota {
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+
+.genero-catalogo {
+	color: #bc9a1d;
+	font-size: 13px;
+}
+.break {
+	flex-basis: 100%;
+	height: 0;
+  }
+
+  section {
+	  background-color: lightgray;
+  }
+
+.rodape {
+	display: flex;
+	padding: 20px;
+}
+
+.rodape img {
+	margin-right: 630px;
+}
+
+.redes {
+	font-size: 30px;
+	color: lightgray;
+	margin-right: 30px;
+}
