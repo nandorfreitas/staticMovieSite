@@ -164,10 +164,14 @@ h1{
 .rodape {
 	display: flex;
 	padding: 20px;
+	justify-content: space-between;
 }
 
-.rodape img {
-	margin-right: 630px;
+
+
+.redesNome {
+	font-size: 15px;
+	color: gray;
 }
 
 .redes {
